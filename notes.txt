@@ -1,0 +1,21 @@
+//Local implementations of Git and Version Control
+
+-Version control
+git init
+
+//Staging area - intermediate stages for commits
+git status
+git add file.txt
+
+//commits
+git commit -m "Complete Chapter 1"
+
+//adding all files
+git add .
+
+//check
+git log
+
+//revert changes
+git diff file.txt -> what changes were made
+git checkout file.txt -> rolls back to last commit
